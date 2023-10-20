@@ -76,3 +76,6 @@ Copy env.example to .env and fill out any relevant information for your environm
     phpunit tests/*
 ```
 
+### Attribution
+
+README.md built at https://readme.so/

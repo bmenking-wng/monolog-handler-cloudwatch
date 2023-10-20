@@ -1,0 +1,40 @@
+{
+    "name": "worldnewsgroup/monolog-handler-cloudwatch",
+    "description": "Handler for logging to AWS CloudWatch",
+    "version": "v1.0.0",
+    "keywords": [
+        "php",
+        "monolog",
+        "handler",
+        "cloudwatch",
+        "logging"
+    ],
+    "homepage": "http://wng.org/developers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "World News Group",
+            "homepage": "https://wng.org/developers"
+        },
+        {
+            "name": "Ben Menking",
+            "email": "bmenking@wng.org"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "monolog/monolog": "^3.4",
+        "aws/aws-sdk-php": "^3.283",
+        "phpunit/phpunit": "^9.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "~2.6",
+        "phpstan/phpstan": "^1.9",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": { 
+            "WorldNewsGroup\\": "src/"
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
     "name": "worldnewsgroup/monolog-handler-cloudwatch",
     "description": "Handler for logging to AWS CloudWatch",
-    "version": "v1.0.0",
+    "version": "v1.1",
     "keywords": [
         "php",
         "monolog",

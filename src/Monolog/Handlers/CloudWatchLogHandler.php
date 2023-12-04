@@ -41,7 +41,7 @@ class CloudWatchLogHandler extends AbstractHandler {
             ]);
         }
         catch(CloudWatchLogsException $e) {
-            if( $e->getAwsErrorType() === 'ResourceAlreadyExistsException') {
+            if( $e->getAwsErrorCode() === 'ResourceAlreadyExistsException') {
                 $result = $this->client->describeLogStreams([
                     'logGroupName' => $this->options['logGroupName']
                 ]);

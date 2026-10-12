@@ -1,7 +1,6 @@
 {
     "name": "worldnewsgroup/monolog-handler-cloudwatch",
     "description": "Handler for logging to AWS CloudWatch",
-    "version": "v1.1",
     "keywords": [
         "php",
         "monolog",
@@ -27,7 +26,6 @@
         "aws/aws-sdk-php": "^3.283"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "~2.6",
         "phpstan/phpstan": "^1.9",
         "vlucas/phpdotenv": "^5.5",
         "phpunit/phpunit": "^9.0"
